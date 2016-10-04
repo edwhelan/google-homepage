@@ -1,0 +1,105 @@
+body {
+	font-family: arial;
+}
+
+.head {
+	width: 100%;
+	height: 50px;
+	display: block;
+	position: absolute;
+	top: 0;
+	background: white;
+}
+
+.content {
+	display: block;
+	width: 100%;
+	height: 350px;
+	position: absolute;
+	top: 195px;
+	text-align: center;
+
+}
+
+.footer {
+	background: #f2f2f2;
+	width: 100%;
+	height: 45px;
+	display: block;
+	position: absolute;
+	bottom: 0;
+}
+
+.personal {
+	float: right;
+	margin-right: 20px;
+	color: #757070;
+	vertical-align: middle;
+	width: 260px;
+}
+
+a, a:visited, a:active {text-decoration: none; color: #757070;}
+a:hover {text-decoration: underline; color: #757070;}
+
+ul {display: inline-block;}
+
+li {
+	display: inline;
+	list-style-type: none;
+	padding: 10px;
+	font-size: 14px;
+}
+
+.myAccount {
+	background: navy;
+	color: white;
+	border-radius: 100%;
+	width: 12px;
+	height: 12px;
+	display: inline-block;
+	text-align: center; vertical-align: middle;
+	font-size: 16px;
+}
+
+.mainLogo p {
+	position: relative;
+	display: inline;
+	top: -6px;
+	left: -58px;
+	color: #4285f4;
+}
+
+.mainLogo {
+	margin: auto;
+}
+
+.search {
+	height: 35px;
+	width: 570px;
+	margin-top: 30px;
+	font-size: 16px;
+	padding-left: 10px; 
+}
+
+.submit, .lucky {
+	background-color: #f2f2f2;
+	border:none ;
+	height: 35px; width: 140px;
+	margin: 30px 2px 0px 2px;
+	font-weight: bold;
+	color: #757575;
+	padding: 5px;
+	font-size: 12px;
+	border-radius: 3px;
+}
+
+.terms {
+	float: right;
+	margin-right: 20px;
+}
+
+.thanks {
+	font-weight: bold;
+	padding: 15px;
+	font-size: 16px;
+}
